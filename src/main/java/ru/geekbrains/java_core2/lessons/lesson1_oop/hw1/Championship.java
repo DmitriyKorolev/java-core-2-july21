@@ -23,6 +23,7 @@ public class Championship {
         for (Participant p : participants) {
             for (Trap t : traps) {
                 if(!t.overcome(p)) break;
+
             }
         }
     }
