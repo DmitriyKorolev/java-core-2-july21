@@ -12,6 +12,7 @@ public class Track implements  Trap {
         if(participant.run(this.length)) {
             System.out.printf("%s %s ran track of %dm.\n", participant.getClass().getSimpleName(), participant.getName(), length);
             return  true;
+
         }
         System.out.printf("%s %s haven't ran track of %dm.\n", participant.getClass().getSimpleName(), participant.getName(), length);
         return false;

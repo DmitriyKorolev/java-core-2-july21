@@ -11,6 +11,7 @@ public class Championship {
         new Human("Vasya", 3500, 120),
         };
 
+
         Trap[] traps = {
                 new Track(1200),
                 new Wall(30),

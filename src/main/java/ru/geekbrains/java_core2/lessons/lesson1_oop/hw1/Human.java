@@ -11,6 +11,7 @@ public class Human implements Participant {
         this.maxJump = maxJump;
     }
 
+
     @Override
     public boolean run(int length) {
         return this.maxRun >= length;

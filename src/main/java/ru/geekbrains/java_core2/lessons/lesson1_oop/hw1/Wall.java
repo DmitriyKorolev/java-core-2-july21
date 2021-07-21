@@ -10,6 +10,7 @@ public class Wall implements Trap {
          if(participant.jump(this.height)) {
                 System.out.printf("%s %s jumped over wall of %dm.\n", participant.getClass().getSimpleName(), participant.getName(), height);
                 return  true;
+
          }
          System.out.printf("%s %s haven't jumped over wall of %dm.\n", participant.getClass().getSimpleName(), participant.getName(), height);
          return false;
